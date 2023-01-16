@@ -3,15 +3,15 @@
 
 class Stove
 {
-    constructor(burns, oven, ovenCoverSizeW, ovenCoverSizeH, ovenColor, ovenSizeW, ovenSizeH, ovenBrand) {
+    constructor(burns, oven, ovenCoverSizeW, ovenCoverSizeH, stoveColor, stoveSizeW, stoveSizeH, stoveBrand) {
         this.burns = burns;
         this.oven = oven;
         this.ovenCoverSizeW = ovenCoverSizeW;
         this.ovenCoverSizeH = ovenCoverSizeH;
-        this.ovenColor = ovenColor;
-        this.ovenSizeW = ovenSizeW;
-        this.ovenSizeh = ovenSizeH;
-        this.ovenBrand = ovenBrand;
+        this.stoveColor = stoveColor;
+        this.stoveSizeW = stoveSizeW;
+        this.stoveSizeh = stoveSizeH;
+        this.stoveBrand = stoveBrand;
         this._burnsLitFire = false;
         this._burnsLigth = false;
         this._burnID = 0;
@@ -84,8 +84,8 @@ class Stove
 
         if (this._burnsLigth)
         {
-            return `"${this._burnsLigth}" is On!"`;
+            return "Ligth is On!";
         }
-        return `"${this._burnsLigth}" is Off!"`;
+        return "Ligth is Off!";
     }
 }
