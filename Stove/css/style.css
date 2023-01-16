@@ -1,0 +1,26 @@
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 10vh 85vh 5vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer {
+    background-color: rgb(51, 116, 153);
+    color: whitesmoke;
+}
+
+header h1 {
+    line-height: 10vh;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    font-weight: bold;
+}

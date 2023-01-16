@@ -1,0 +1,131 @@
+@import url(reset.min.css);
+@import url(style.css);
+
+.principal {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.stove {
+    width: 160px;
+    height: 500px;
+    background-color: #1b1b1b;
+    border: solid 1px blue;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.stove .stoveTop {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(209, 209, 209);
+    top: 1px;
+}
+
+.stove .topBurns {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    top: 1px;
+    align-items: center;
+    display: flex;
+    grid-gap: 4px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topBurns .burns {
+    position: relative;
+    width: 68px;
+    height: 68px;
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+}
+
+.burns .fire {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border: 0px;
+    border-radius: 50%;
+}
+
+.burns .fire .litFire {
+    background-color: orangered;
+    color: orangered;
+}
+
+.stove .knobs {
+    position: relative;
+    width: 150px;
+    height: 25px;
+    background-color: lightslategray;
+    top: 1px;
+    align-items: center;
+    display: flex;
+    grid-gap: 4px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.knobs .knob {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: bisque;
+    display: flex;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.light {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: bisque;
+    display: inline-flex;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+}
+
+.stove .oven {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(230, 243, 109);
+    top: 1px;
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+}
+
+.oven .ovenCover {
+    width: 150px;
+    height: 100px;
+    background-color: saddlebrown;
+    display: none;
+}
+
+.burnOven {
+    height: 100px;
+    width: 40px;
+    background-color: black;
+    border: 0px;
+    border-radius: 5px;
+    vertical-align: middle;
+    display: block;
+}
